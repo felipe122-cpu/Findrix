@@ -1,14 +1,12 @@
 # Findrix
 # 👥 Integrantes
 - Jhoan Felipe Hernandez Murcia
-- 
-- 
-- 
 
+
+
+---
 # 🎯 Descripción
-Breve descripción clara del sistema.
-Ejemplo:
-Sistema web full stack para la gestión de [inventarios / logística / usuarios], que permite optimizar procesos mediante una aplicación cliente-servidor.
+Aplicativo web full stack para para la gestión de finanzas personales, que permite optimizar el control de ingresos, gastos y ahorros mediante una aplicación cliente-servidor con acompañamiento de un bot financiero.
 
 # 🧩 Problema
 A algunas personas se les dificulta organizar sus finanzas personales, lo cual genera:
@@ -77,13 +75,13 @@ Modelo de datos
 Arquitectura
 
 # 📈 Estado del Proyecto
-# 🚧 En desarrollo
+## 🚧 En desarrollo
 ..
 
-# 🚀 Futuras Mejoras
+## 🚀 Futuras Mejoras
 Roles avanzados
 Seguridad (JWT)
 Despliegue en la nube
-
+---
 # 📜 Licencia
 Uso académico - SENA
