@@ -67,16 +67,16 @@ JWT_SECRET=secret_key
 /database → scripts SQL  
 
 # 📄 Documentación
-La documentación se encuentra en la carpeta /docs:
-Contexto
-Problema
-Inppacto del problema
-Solucción
-Impacto de la solución
-Alcance
-Requisitos
-Modelo de datos
-Arquitectura
+- La documentación se encuentra en la carpeta /docs:
+- Contexto
+- Problema
+- Inpacto del problema
+- Solucción
+- Impacto de la solución
+- Alcance
+- Requisitos
+- Modelo de datos
+- Arquitectura
 
 # 📈 Estado del Proyecto
 ## 🚧 En desarrollo
