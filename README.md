@@ -70,6 +70,10 @@ JWT_SECRET=secret_key
 La documentación se encuentra en la carpeta /docs:
 Contexto
 Problema
+Inppacto del problema
+Solucción
+Impacto de la solución
+Alcance
 Requisitos
 Modelo de datos
 Arquitectura
