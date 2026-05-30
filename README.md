@@ -1,6 +1,9 @@
 # Findrix
 # 👥 Integrantes
 - Jhoan Felipe Hernandez Murcia
+- Juan Sebastián Angulo Pérez
+- María Camila Niño Salamanca
+- Yeimy Alejandra Padilla 
 
 
 
@@ -36,6 +39,31 @@ PgSQL
 
 
 # 🧱 Arquitectura
+Monolítico de 3 capas 
+1. Capa de Presentación (Interfaz)
+Es la parte que ve y utiliza el usuario.
+
+• Formularios para registrar ingresos y gastos.
+• Pantallas para ver el presupuesto disponible.
+• Tablas con los movimientos financieros.
+• Botones para agregar, editar o eliminar registros.
+
+2. Capa de Lógica de Negocio
+Aquí se procesan las reglas del sistema.
+
+• Validar que el monto sea mayor que cero.
+• Calcular el saldo disponible.
+• Determinar si el usuario excedió su presupuesto.
+• Generar estadísticas de gastos e ingresos.
+
+3. Capa de Datos
+Es la encargada de almacenar y recuperar información de la base de datos.
+
+• Guardar usuarios.
+• Guardar ingresos y gastos.
+• Consultar movimientos registrados.
+• Actualizar o eliminar registros.
+
 
 
 # 🚀 Instalación
