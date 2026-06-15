@@ -1,16 +1,25 @@
 # Alcance de la solución
 
-## Incluye
-- Desarrollo de un sistema web funcional full stack.
-- Implementación de autenticación de usuarios.
-- Registro y gestión de ingresos, gastos y ahorros.
-- Integración con base de datos PGSQL.
-- Interfaz de interacción complementaria mediante WhatsApp.
-- Página web informativa sobre el funcionamiento del proyecto.
-- API REST para la comunicación entre componentes.
-- Acompañamiento del bot con recomendaciones básicas. 
+# 08. Alcance de la Solución
 
-## No incluye
-- Sincronización automática con cuentas bancarias reales.
-- Análisis financiero avanzado o inteligencia artificial compleja.
-- Sistemas de recompensas por hábitos financieros.
+## Alcance Inicial (MVP)
+- Autenticación de usuarios.
+- Gestión básica de ingresos y gastos.
+- Dashboard financiero simple.
+- Sistema de niveles educativos con 15-20 lecciones iniciales.
+- Progreso básico en el módulo de aprendizaje.
+- Presupuestos mensuales.
+
+## Alcance Futuro (Fase 2 y 3)
+- Integración con bancos (open banking).
+- Inversiones y portafolios.
+- Comunidad y foros.
+- Modo oscuro, multilenguaje.
+- Análisis predictivo con IA.
+- App móvil nativa.
+- Certificados de finalización de cursos.
+
+## Fuera de Alcance (actual)
+- Asesoría financiera personalizada.
+- Manejo de criptomonedas complejas.
+- Contabilidad empresarial.
