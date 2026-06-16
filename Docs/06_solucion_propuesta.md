@@ -1,19 +1,45 @@
-# Solución propuesta
-Se propone el desarrollo de un aplicativo web full stack denominado  Findrix, el cual permitirá gestionar tareas de manera centralizada mediante:
+# 06. Solución Propuesta
 
-## Frontend:
-Interfaz basada en WhatsApp como canal de apoyo e interacción complementaria, junto con una página web informativa que explica el funcionamiento del proyecto.
+## Nombre del Proyecto
+**Findrix** — *Finanzas + Matrix*
 
-## Backend:
-API REST desarrollada en Node.js con Express para la lógica del sistema y gestión del bot como asistente financiero.
+## Descripción de la Solución
+Findrix es una plataforma web integral que combina **herramientas prácticas de gestión financiera** con un **sistema educativo gamificado**, inspirado en la metodología de Duolingo, pero enfocado exclusivamente en educación financiera personal.
 
-## Base de Datos:
-PgSQL para el almacenamiento y administración de la información de los usuarios. 
+El objetivo es que los usuarios no solo controlen su dinero, sino que también mejoren sus conocimientos financieros de forma progresiva y entretenida.
 
-### Funcionalidades principales
-- Registro e identificación de usuarios.
-- Registro y control de ingresos, gastos y ahorros.
-- Seguimiento del estado financiero del usuario.
-- Acompañamiento del bot con recomendaciones y sugerencias personalizadas.
-- Alertas sobre hábitos financieros y metas.
-- Visualización de reportes básicos. 
+## Características Principales
+
+### 1. Módulo de Gestión Financiera
+- Registro rápido de ingresos y gastos.
+- Presupuestos mensuales inteligentes por categoría.
+- Control de múltiples cuentas y tarjetas.
+- Metas de ahorro con seguimiento visual de progreso.
+- Reportes avanzados y exportación (PDF y CSV).
+
+### 2. Módulo Educativo - Academia Findrix
+- **Tres niveles de dificultad**: Principiante, Intermedio y Experto.
+- Evaluación inicial de conocimiento al registrarse.
+- Lecciones cortas diarias (5-10 minutos).
+- Contenido interactivo: lecturas, videos, quizzes y ejercicios prácticos.
+- Sistema de progresión: los niveles se desbloquean según el rendimiento.
+- Gamificación completa: puntos, rachas, badges, ligas y recompensas.
+
+### 3. Funcionalidades Adicionales
+- Notificaciones inteligentes (presupuestos, rachas, logros).
+- Sugerencias automáticas de categorización de gastos.
+- Soporte para múltiples monedas.
+- Perfil personalizado con estadísticas de progreso financiero y educativo.
+
+## Diferenciadores Clave
+- Única plataforma que une **gestión + educación financiera** de forma nativa.
+- Enfoque gamificado que aumenta la retención y motivación del usuario.
+- Contenido adaptativo según el nivel real del usuario.
+- Diseño moderno, intuitivo 
+- Enfoque 100% práctico: las lecciones se relacionan directamente con las herramientas financieras del usuario.
+
+## Flujo Principal del Usuario
+1. Registro → Evaluación inicial de nivel financiero.
+2. Uso diario de la app + recomendación de lecciones personalizadas.
+3. Progreso simultáneo en finanzas y conocimiento.
+4. Logros y recompensas que motivan el uso continuo.
