@@ -1,119 +1,54 @@
 # Findrix
-# 👥 Integrantes
-- Jhoan Felipe Hernandez Murcia
+
+**Gestión Inteligente y Educación Financiera Gamificada**
+
+
+**👥 Integrantes**
+- Juan Felipe Hernández Murcia
 - Juan Sebastián Angulo Pérez
 - María Camila Niño Salamanca
-- Yeimy Alejandra Padilla 
-
+- Yeimy Alejandra Padilla Gutierrez 
 
 
 ---
-# 🎯 Descripción
-Aplicativo web full stack para para la gestión de finanzas personales, que permite optimizar el control de ingresos, gastos y ahorros mediante una aplicación cliente-servidor con acompañamiento de un bot financiero.
 
-# 🧩 Problema
-A algunas personas se les dificulta organizar sus finanzas personales, lo cual genera:
-- Inestabilidad económica.
-- Falta de control sobre ingresos, gastos y ahorros.
-- Desorden o pérdida de información financiera.
-- Dificultad para tomar decisiones económicas. 
+## 📋 Descripción del Proyecto
 
-# 💡 Solución Propuesta
-Se propone el desarrollo de un aplicativo web full stack denominado "Findrix" , el cual permitirá gestionar tareas de manera centralizada mediante:
-- Frontend: Interfaz basada en WhatsApp como canal de apoyo e interacción complementaria, junto con una página web informativa que explica el funcionamiento del proyecto.
-- Backend: API REST desarrollada en Node.js con Express para la lógica del sistema y gestión del bot como asistente financiero.
-- Base de Datos: PGSQL para el almacenamiento y administración de la información financiera de los usuarios. 
+**Findrix** es una aplicación web innovadora diseñada para revolucionar la forma en que las personas gestionan y aprenden sobre sus finanzas personales.
 
-# ⚙️ Tecnologías
-# Frontend
-React
-HTML5 / CSS3
-JavaScript
-# Backend
-Node.js
-Express
-# Base de Datos
-PgSQL
+La plataforma combina **dos grandes módulos** en una sola experiencia:
 
-# 🗄️ Modelo de Datos
+### 1. Gestión de Finanzas Personales
+Permite a los usuarios tener un control total y sencillo de su economía diaria:
+- Registro rápido de ingresos y gastos
+- Creación y seguimiento de presupuestos mensuales
+- Control de deudas, ahorros, metas financieras e inversiones
+- Categorías personalizables
 
+### 2. Academia Findrix — Educación Financiera Gamificada
+Un sistema de aprendizaje inspirado en Duolingo, pero enfocado exclusivamente en finanzas personales:
+- **Niveles adaptados**: Principiante, Intermedio y Experto
+- Lecciones cortas, interactivas y progresivas
+- Quizzes, ejercicios prácticos y contenido multimedia
+- Sistema de puntos, rachas diarias, badges y recompensas
+- Progreso personalizado según el nivel real del usuario
+- Contenido que se desbloquea según el avance
 
-# 🧱 Arquitectura
-Monolítico de 3 capas 
-1. Capa de Presentación (Interfaz)
-Es la parte que ve y utiliza el usuario.
+### Objetivo Principal
+Empoderar a cualquier persona —sin importar su edad o conocimiento previo— para que tome **decisiones financieras inteligentes**, mejore su salud económica y construya un futuro más estable.
 
-• Formularios para registrar ingresos y gastos.
-• Pantallas para ver el presupuesto disponible.
-• Tablas con los movimientos financieros.
-• Botones para agregar, editar o eliminar registros.
+**Findrix** busca cerrar la brecha de la educación financiera en países de habla hispana, haciendo que aprender a manejar dinero sea **accesible, entretenido y efectivo**.
 
-2. Capa de Lógica de Negocio
-Aquí se procesan las reglas del sistema.
-
-• Validar que el monto sea mayor que cero.
-• Calcular el saldo disponible.
-• Determinar si el usuario excedió su presupuesto.
-• Generar estadísticas de gastos e ingresos.
-
-3. Capa de Datos
-Es la encargada de almacenar y recuperar información de la base de datos.
-
-• Guardar usuarios.
-• Guardar ingresos y gastos.
-• Consultar movimientos registrados.
-• Actualizar o eliminar registros.
-
-
-
-# 🚀 Instalación
-1. Clonar repositorio
-git clone https://github.com/[usuario]/[repositorio].git
-
-2. Backend
-cd backend
-npm install
-npm run dev
-
-3. Frontend
-cd frontend
-npm install
-npm start
-
-# 🔐 Variables de Entorno
-Crear archivo .env en /backend:
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=nombre_db
-JWT_SECRET=secret_key
-
-# 📂 Estructura del Proyecto
-/docs → documentación  
-/backend → API REST  
-/frontend → aplicación React  
-/database → scripts SQL  
-
-# 📄 Documentación
-- La documentación se encuentra en la carpeta /docs:
-- Contexto
-- Problema
-- Inpacto del problema
-- Solucción
-- Impacto de la solución
-- Alcance
-- Requisitos
-- Modelo de datos
-- Arquitectura
-
-# 📈 Estado del Proyecto
-## 🚧 En desarrollo
-..
-
-## 🚀 Futuras Mejoras
-Roles avanzados
-Seguridad (JWT)
-Despliegue en la nube
 ---
-# 📜 Licencia
-Uso académico - SENA
+
+## 🛠️ Stack Tecnológico Actual
+
+- **Frontend**: HTML, CSS y JavaScript (prototipos iniciales)
+- **Backend**: Python (Flask o Django)
+- **Base de Datos**: SQLite (entorno de desarrollo) / PostgreSQL (producción)
+- **Estilos**: Tailwind CSS
+- **Control de Versiones**: Git + GitHub
+- **Otros**: Posible integración futura con Chart.js para gráficos
+
+---
+
