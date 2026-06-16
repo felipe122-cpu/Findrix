@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="shortcut icon" href="img/LogoFindrix.png" type="image/x-icon">
+    <meta name="author" content="Findrix">
+    <meta name="keywords" content="Findrix">
+    <meta name="description" content="Findrix es una plataforma que ayuda a las personas a gestionar sus finanzas personales de manera más eficiente.">
+    <script src="js/modernizr.js"></script>
+    <script src="js/prefixfree.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#inicio">
+        <div id="logo"><h1>Findrix</h1></div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Inicio</a></li>
+          <li><a href="Home.html#nosotros">Sobre Nosotros</a></li>
+          <li><a href="Formulario.html">Formulario</a></li>
+          <li><a href="#" onclick="cerrarSesion()">Cerrar sesión</a></li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#RegistroUsuario">Registro de usuario</a></li>
+        <li><a href="#RegistroGastos">Registro gastos</a></li>
+        <li><a href="#RegistroIngresos">Registro ingresos</a></li>
+        <li><a href="#RegistroCategoria">Registrar categoría</a></li>
+      </ul>
+    </nav>
+    <main id="Formulario">
+      <section id="RegistroUsuario">
+        <div>
+          <form>
+            <h2>Registro de usuario</h2>
+            <div>
+              <div class="formulario">
+                <p>Nombre:</p>
+                <input type="text" placeholder="Nombre" required autofocus>
+                <p>Edad:</p>
+                <input type="number" placeholder="Edad" required>
+                <p>Ocupación:</p>
+                <input type="text" placeholder="Ocupación" required>
+                <p>Conocimientos financiero:</p>
+                <input list="Conocimiento" name="conocimiento" placeholder="Conocimiento Finacniero" required>
+                <datalist id="Conocimiento">
+                  <option value="bajo"></option>
+                  <option value="basico"></option>
+                  <option value="intermedio"></option>
+                  <option value="avanzado"></option>
+                </datalist>
+                <input class="boton" type="submit" value="Enviar">
+                <a href="Formulario.html">Borrar</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="RegistroGastos">
+        <div>
+          <form>
+            <h2>Registro de gastos</h2>
+            <div>
+              <div class="formulario">
+                <p>Descripcion Gasto:</p>
+                <input type="text" placeholder="Descripcion Gasto" required>
+                <p>Categoria:</p>
+                <input list="Categoria" name="Categoria" placeholder="Categoria" required>
+                <datalist id="Categoria">
+                  <option value="Entrenemiento"></option>
+                  <option value="Alimentación"></option>
+                  <option value="Transporte"></option>
+                  <option value="Salud"></option>
+                  <option value="Servicios"></option>
+                  <option value="Otros"></option>
+                </datalist>
+                <p>Valor Gasto:</p>
+                <input type="text" placeholder="Valor Gasto" required>
+                <p>Lugar de Gasto:</p>
+                <input type="text" placeholder="Lugar de Gasto" required>
+                <p>Fecha de Gasto:</p>
+                <input type="date" id="fechaGasto" name="fechaG" required>
+                <input class="boton" type="submit" value="Enviar">
+                <a href="Formulario.html">Borrar</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="RegistroIngresos">
+        <div>
+          <form>
+            <h2>Registro de ingresos</h2>
+            <div>
+              <div class="formulario">
+                <p>Descripcion Ingreso:</p>
+                <input type="text" placeholder="Descripcion Ingreso">
+                <p>Valor Ingreso:</p>
+                <input type="text" placeholder="Precio Ingreso">
+                <p>Fecha de Ingreso:</p>
+                <input type="date" id="fechaIngreso" name="fechaI">
+                <input class="boton" type="submit" value="Enviar">
+                <a href="Formulario.html">Borrar</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="RegistroCategoria">
+        <div>
+          <form>
+            <h2>Registrar categoria</h2>
+            <div>
+              <div class="formulario">
+                <p>Nombre Categoria:</p>
+                <input type="text" placeholder="Nombre Categoria">
+                <p>Descripcion:</p>
+                <input type="text" placeholder="Descripcion">
+                <input class="boton" type="submit" value="Enviar">
+                <a href="Formulario.html">Borrar</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
